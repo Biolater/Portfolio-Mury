@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
+import ThemeFaviconSwitcher from "@/components/theme-favicon-switcher";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -62,6 +63,7 @@ export default function RootLayout({
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="light">
+          <ThemeFaviconSwitcher />
           <TooltipProvider delayDuration={0}>
             {children}
             <Navbar />
