@@ -36,7 +36,7 @@ export const DATA = {
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
 
   contact: {
-    email: "yusifovmurad1@gmail.com",
+    email: "muradyusubovdev@icloud.com",
     tel: "+994709224340",
     social: {
       GitHub: {
@@ -53,7 +53,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "mailto:yusifovmurad1@gmail.com",
+        url: "mailto:muradyusubovdev@icloud.com",
         icon: Icons.email,
         navbar: false,
       },
