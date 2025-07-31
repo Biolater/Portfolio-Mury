@@ -55,7 +55,7 @@ export const DATA = {
         name: "Send Email",
         url: "mailto:muradyusubovdev@icloud.com",
         icon: Icons.email,
-        navbar: false,
+        navbar: true,
       },
     },
   },

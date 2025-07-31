@@ -211,7 +211,7 @@ export default function Page() {
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Want to chat? Just shoot me an{" "}
-                <a href="mailto:yusifovmurad1@gmail.com" className="underline">
+                <a href="mailto:muradyusubovdev@icloud.com" className="underline">
                   email
                 </a>{" "}
                 or connect via{" "}
