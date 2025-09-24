@@ -80,7 +80,7 @@ export const DATA = {
       location: "Remote",
       title: "Frontend Developer (Contract)",
       logoUrl: "/logo-softsync.jpg",
-      start: "May 2024",
+      start: "May 2025",
       end: "Present",
       description:
         "Built a modern CRM-style interface inspired by Folk.app. Delivered drag-and-drop pipelines, Kanban-style boards, and modular table views. Led frontend implementation for dynamic data grouping and real-time interactions using Next.js, Tailwind, and TypeScript. Collaborated with the backend and product lead to shape key user workflows.",
@@ -128,8 +128,13 @@ export const DATA = {
       ],
       links: [
         {
-          type: "GitHub",
-          href: "https://github.com/Biolater/student-budget-buddy",
+          type: "GitHub (Frontend)",
+          href: "https://github.com/Biolater/Student-Budget-Buddy",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "GitHub (Backend)",
+          href: "https://github.com/Biolater/Student-Budget-Buddy-Backend",
           icon: <Icons.github className="size-3" />,
         },
         {
@@ -139,6 +144,41 @@ export const DATA = {
         },
       ],
       image: "/student-budget-buddy.png",
+    },
+    {
+      title: "ScopeMatter",
+      href: "https://github.com/Biolater/scopematter",
+      dates: "Jul 2025 – Present",
+      active: true,
+      description:
+        "ScopeMatter is a micro-SaaS platform that helps freelance developers and small agencies formalize project requirements, prevent scope creep, and manage client expectations. Built with Next.js 15, Prisma, PostgreSQL, and Clerk, it includes features such as project scoping, scope item tracking, structured change requests, and client management. Designed with a subscription-based model to validate SaaS viability.",
+      technologies: [
+        "Next.js 15",
+        "TypeScript",
+        "Prisma",
+        "PostgreSQL",
+        "TailwindCSS",
+        "Clerk",
+        "HeroUI",
+      ],
+      links: [
+        {
+          type: "GitHub (Frontend)",
+          href: "https://github.com/Biolater/scopematter",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "GitHub (Backend)",
+          href: "https://github.com/Biolater/scopematter-be",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Live Demo",
+          href: "https://scopematter.xyz",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/scopematter.png",
     },
   ],
 } as const;
