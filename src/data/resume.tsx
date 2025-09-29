@@ -160,6 +160,7 @@ export const DATA = {
         "TailwindCSS",
         "Clerk",
         "HeroUI",
+        "Supabase",
       ],
       links: [
         {
