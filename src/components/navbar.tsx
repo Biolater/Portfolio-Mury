@@ -20,7 +20,8 @@ export default function Navbar() {
           <DockIcon key={item.href}>
             <Tooltip>
               <TooltipTrigger asChild>
-                <Link
+                <a
+                  target="_blank"
                   href={item.href}
                   className={cn(
                     buttonVariants({ variant: "ghost", size: "icon" }),
@@ -28,7 +29,7 @@ export default function Navbar() {
                   )}
                 >
                   <item.icon className="size-4" />
-                </Link>
+                </a>
               </TooltipTrigger>
               <TooltipContent>
                 <p>{item.label}</p>
@@ -44,6 +45,7 @@ export default function Navbar() {
               <Tooltip>
                 <TooltipTrigger asChild>
                   <Link
+                    target="_blank"
                     href={social.url}
                     className={cn(
                       buttonVariants({ variant: "ghost", size: "icon" }),
