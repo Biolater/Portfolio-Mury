@@ -6,7 +6,6 @@ import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
-import Link from "next/link";
 import Markdown from "react-markdown";
 
 const BLUR_FADE_DELAY = 0.04;
@@ -148,8 +147,8 @@ export default function Page() {
                   dates={project.dates}
                   tags={project.technologies}
                   image={project.image}
-                  /*                   video={project.video}
-                   */ links={project.links}
+                  links={project.links}
+                  video={project.video}
                 />
               </BlurFade>
             ))}
@@ -211,7 +210,10 @@ export default function Page() {
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Want to chat? Just shoot me an{" "}
-                <a href="mailto:muradyusubovdev@icloud.com" className="underline">
+                <a
+                  href="mailto:muradyusubovdev@icloud.com"
+                  className="underline"
+                >
                   email
                 </a>{" "}
                 or connect via{" "}

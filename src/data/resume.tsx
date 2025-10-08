@@ -144,6 +144,7 @@ export const DATA = {
         },
       ],
       image: "/student-budget-buddy.png",
+      video: ""
     },
     {
       title: "ScopeMatter",
@@ -179,7 +180,8 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/scopematter.png",
+      image: "",
+      video: "https://9nghnaawajmv9mqf.public.blob.vercel-storage.com/scopematter",
     },
   ],
 } as const;
