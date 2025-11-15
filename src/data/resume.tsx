@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Full-stack developer with 3+ years of experience building performant, scalable web applications with modern technologies.",
   summary:
-    "I'm Murad Yusubov, an 18-year-old self-taught full-stack developer with 3+ years of experience building and delivering web applications. I specialize in crafting scalable backends with Node.js and PostgreSQL, and building sleek, responsive frontends using React, Next.js, and TailwindCSS. I’ve contributed to multiple production-grade platforms across diverse teams, and consistently focus on clean code, performance, and real-world problem solving. I'm driven by impact — building software that works, scales, and makes life easier.",
+    "I'm Murad Yusubov, an 18-year-old self-taught full-stack developer with 3+ years of experience shipping production code. I've led frontend teams, built complex CRM platforms from scratch, and delivered features serving real users. I specialize in React, Next.js, TypeScript, Node.js, and PostgreSQL, building scalable SaaS platforms, CRM systems, and financial management apps. Expert in REST APIs, GraphQL, Tailwind CSS, and modern JavaScript. I'm driven by impact: building software that works, scales, and solves real problems.",
 
   avatarUrl: "/me.png",
 
@@ -71,32 +71,32 @@ export const DATA = {
       start: "February 2025",
       end: "May 2025",
       description:
-        "Contributed to a creator-focused content platform by building reusable UI components and integrating backend APIs. Collaborated closely with the backend engineer to deliver modular features and improve developer workflows. Leveraged Remix and React Router to architect scalable data flows and dynamic page routing. Delivered production-grade, responsive layouts with smooth interaction patterns and clean, maintainable logic.",
+        "Architected and shipped the complete frontend for a creator monetization platform enabling content creators to monetize through subscription tiers and pay-per-view models. Designed and implemented a sophisticated video access control system with granular tier-based permissions, allowing creators to offer partial content access (e.g., 10-minute preview for basic tier, full access for premium). Integrated Stripe payment processing to handle multiple subscription packages and one-time purchases. Engineered scalable component architecture using Remix and React Router, establishing API contracts with backend team to optimize data fetching patterns. Delivered production-grade authentication flows, content locking mechanisms, and responsive UI with TailwindCSS.",
     },
     {
       company: "Softsync",
       href: "https://app.softsync.ai",
       badges: [],
       location: "Remote",
-      title: "Frontend Developer (Contract)",
+      title: "Frontend Team Lead",
       logoUrl: "/logo-softsync.jpg",
       start: "May 2025",
       end: "Present",
       description:
-        "Built a modern CRM-style interface inspired by Folk.app. Delivered drag-and-drop pipelines, Kanban-style boards, and modular table views. Led frontend implementation for dynamic data grouping and real-time interactions using Next.js, Tailwind, and TypeScript. Collaborated with the backend and product lead to shape key user workflows.",
+        "Leading frontend development for an enterprise CRM platform (Folk.app-inspired) serving a 14-person team. Architected core UI infrastructure including a production-ready table component supporting multiple data types, keyboard navigation, and dynamic column reordering. Designed and implemented drag-and-drop pipeline views and modular entity management system (Deals, Companies, People). Manage a team of 2 frontend developers while delivering critical features: AI-powered workspace analytics tool, intelligent merge suggestions with manual and automatic workflows, entity enrichment, and email integration with custom sender support. Established GraphQL integration with Codegen for type-safe API consumption. Implemented comprehensive error tracking (Sentry) and analytics (PostHog). Built scalable component library with Next.js, TypeScript, ShadCN UI, and Tailwind CSS, ensuring consistent performance across Pipeline, Table, and Groups view types.",
     },
-    {
-      company: "OnlyGamers",
-      href: null,
-      badges: [],
-      location: "Remote",
-      title: "Frontend Developer",
-      logoUrl: "/onlygamers.png",
-      start: "April 2024",
-      end: "July 2024",
-      description:
-        "Developed core UI and content tools for a social gaming platform. Used Next.js and TailwindCSS to build reusable components and responsive layouts. Helped improve performance and prepare the platform for its pivot to ASCND.",
-    },
+    // {
+    //   company: "OnlyGamers",
+    //   href: null,
+    //   badges: [],
+    //   location: "Remote",
+    //   title: "Frontend Developer",
+    //   logoUrl: "/onlygamers.png",
+    //   start: "April 2024",
+    //   end: "July 2024",
+    //   description:
+    //     "Developed core UI infrastructure and content management tools for a social gaming platform. Created a reusable component library with Next.js and TailwindCSS, implementing responsive layouts optimized for gaming content. Improved application performance by implementing code splitting and lazy loading strategies, reducing initial bundle size through dynamic imports. Contributed to platform infrastructure modernization by refactoring components for modularity and establishing consistent design patterns, setting the foundation for the platform's evolution into ASCND.",
+    // },
   ],
 
   education: [
@@ -117,7 +117,7 @@ export const DATA = {
       dates: "Feb 2025 – May 2025",
       active: false,
       description:
-        "A responsive budgeting app that helps students track expenses, manage category-based budgets, and gain insights through visualizations. Built as a full-stack application with Next.js, PostgreSQL, and Clerk. Features include recurring transactions, multi-currency support, and mobile-first design. Designed and shipped independently as a portfolio-grade product.",
+        "Financial management platform designed for students to track spending, manage budgets, and gain AI-powered insights. Features multi-currency support with real-time conversion, intelligent budget management with automatic expense linking, and recurring transactions with flexible frequencies. Integrated ChatGPT API for natural language financial queries and built interactive dashboard with spending trends and category breakdowns.",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -125,6 +125,9 @@ export const DATA = {
         "Prisma",
         "TailwindCSS",
         "Clerk",
+        "Express.js",
+        "ChatGPT API",
+        "Charts.js",
       ],
       links: [
         {
@@ -149,10 +152,10 @@ export const DATA = {
     {
       title: "ScopeMatter",
       href: "https://github.com/Biolater/scopematter",
-      dates: "Jul 2025 – Present",
-      active: true,
+      dates: "Jul 2025 – Oct 2025",
+      active: false,
       description:
-        "ScopeMatter is a micro-SaaS platform that helps freelance developers and small agencies formalize project requirements, prevent scope creep, and manage client expectations. Built with Next.js 15, Prisma, PostgreSQL, and Clerk, it includes features such as project scoping, scope item tracking, structured change requests, and client management. Designed with a subscription-based model to validate SaaS viability.",
+        "Micro-SaaS preventing scope creep for freelancers through structured workflows from requests to change orders. Includes secure project sharing, professional PDF exports, and analytics—built to validate subscription model viability.",
       technologies: [
         "Next.js 15",
         "TypeScript",
@@ -162,6 +165,8 @@ export const DATA = {
         "Clerk",
         "HeroUI",
         "Supabase",
+        "Express.js",
+        "Redis",
       ],
       links: [
         {
